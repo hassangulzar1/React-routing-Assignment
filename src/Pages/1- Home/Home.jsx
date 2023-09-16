@@ -4,7 +4,7 @@ import Footer from "../../components/Footer";
 import BurgerPic from "../../assets/burger.jpg";
 import PizzaPic from "../../assets/pizaa1.jpg";
 import BurgerPic2 from "../../assets/burger2.jpg";
-
+import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <Fragment>
@@ -16,9 +16,9 @@ const Home = () => {
         <img src={BurgerPic2} height={"150px"} width={"200px"} alt="" />
         <div>
           <br />
-          <a>
+          <Link to={"/menu"}>
             <input type="button" value={"let see our menu"} />
-          </a>
+          </Link>
           <hr />
         </div>
         <Footer />
