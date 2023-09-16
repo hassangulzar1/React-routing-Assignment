@@ -11,10 +11,10 @@ const routes = () => {
       <Routes>
         <Route path="/">
           <Route index element={<Home />} />
-          <Route path="/Menu" element={<Menu />} />
-          <Route path="/About" element={<About />} />
-          <Route path="/Timing" element={<Timing />} />
-          <Route path="/Contact" element={<Contact />} />
+          <Route path="menu" element={<Menu />} />
+          <Route path="about" element={<About />} />
+          <Route path="timing" element={<Timing />} />
+          <Route path="contact" element={<Contact />} />
         </Route>
       </Routes>
     </>
