@@ -6,7 +6,7 @@ import burger from "../../assets/burger.jpg";
 import burger2 from "../../assets/burger2.jpg";
 import pizza2 from "../../assets/pizza2.jpg";
 import pizza from "../../assets/pizza.jpg";
-import pizza1 from "../../assets/pizza1.jpg";
+import pizza1 from "../../assets/pizaa1.jpg";
 const Menu = () => {
   return (
     <Fragment>
@@ -22,6 +22,7 @@ const Menu = () => {
         <img height={"100px"} width={"150px"} src={pizza} alt="" />
         <img height={"100px"} width={"150px"} src={pizza1} alt="" />
         <hr />
+        <Footer />
       </center>
     </Fragment>
   );
